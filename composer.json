@@ -1,0 +1,24 @@
+{
+    "name": "jitesoft/contracts",
+    "description": "A package with commonly used and shared contracts for Jitesoft projects.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Johannes Tegnér",
+            "email": "johannes@jitesoft.com"
+        }
+    ],
+    "require": {
+        "psr/container": "1.0.*"
+
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "3.5.*"
+    },
+    "scripts": {
+        "test": [
+            "phpcs --standard=ruleset.xml src/"
+        ]
+    }
+}
